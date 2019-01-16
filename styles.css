@@ -3,13 +3,7 @@
 /* Boiler plate CSS */
 
 
-#myVideo {
-  right: 0;
-  bottom: 0;
-  min-width: 1920px; 
-  min-height: 1152px;
-  background: cover;
-}
+
 
 
 .sk-ab {
@@ -36,7 +30,7 @@
 	width: 1680px;
 	height: 962px;
 	left: 0px;
-	top: 1152px;
+	top: 948px;
 	background-image: url("images/curt.png");
 }
 
@@ -53,7 +47,7 @@ only screen and (min-device-pixel-ratio: 2) {
 	width: 1680px;
 	height: 970px;
 	left: 0px;
-	top: 2116px;
+	top: 1912px;
 	background-image: url("images/stout.png");
 }
 
@@ -70,7 +64,7 @@ only screen and (min-device-pixel-ratio: 2) {
 	width: 1680px;
 	height: 970px;
 	left: 0px;
-	top: 3088px;
+	top: 2884px;
 	background-image: url("images/stellar.png");
 }
 
@@ -85,7 +79,7 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 .sk-asset.sk-overlay {
 	width: 1680px;
-	height: 1152px;
+	height: 948px;
 	left: 0px;
 	top: 0px;
 	background-image: url("images/overlay.png");
@@ -97,10 +91,31 @@ only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	.sk-asset.sk-overlay {
 		background-image: url("images/overlay@2x.png");
-		background-size: 1680px 1152px;
+		background-size: 1680px 948px;
 	}
 }
 
+.video-container {
+  	width: 1920px;
+    overflow:hidden;
+    display:block;
+    height: 948px;
+}
+.video-container video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%; 
+  min-height: 100%; 
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  /*width: auto;
+  height: auto;*/
+
+  /* Center the video */
+ /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);*/
+}
 
 
 
