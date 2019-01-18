@@ -35,7 +35,7 @@
 	width: 1680px;
 	height: 962px;
 	left: 0px;
-	top: 948px;
+	top: 950px;
 	background-image: url("images/curt.png");
 }
 
@@ -84,7 +84,7 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 .sk-asset.sk-overlay {
 	width: 1680px;
-	height: 948px;
+	height: 950px;
 	left: 0px;
 	top: 0px;
 	background-image: url("images/overlay.png");
@@ -96,7 +96,7 @@ only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	.sk-asset.sk-overlay {
 		background-image: url("images/overlay@2x.png");
-		background-size: 1680px 948px;
+		background-size: 1680px 950px;
 	}
 }
 .sk-asset.sk-footer {
